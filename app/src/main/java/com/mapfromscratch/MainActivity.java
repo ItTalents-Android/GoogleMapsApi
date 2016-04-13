@@ -39,9 +39,6 @@ public class MainActivity extends AppCompatActivity implements  LocationListener
     private TextView txtLat;
     private TextView txtLong;
 
-    LatLng prevPosition;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
